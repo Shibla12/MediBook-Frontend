@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'http://localhost:3000'
+  baseURL: "https://medibook-backend-zea8.onrender.com"
 })
 
 export const getAppointmentsAPI = () =>
